@@ -1,0 +1,94 @@
+body {
+    background-color: gray;
+}
+
+.column {
+    flex: 25%;
+    flex-wrap: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+   margin-top: 10%;
+   vertical-align: middle;
+}
+
+
+#search {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 6px;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.list {
+    list-style-type:none;
+}
+
+input {
+    border: 2px inset darkgray;
+}
+
+
+input:hover {
+    background-color: lightgray;
+    
+}
+
+img {
+    border-bottom: 2px solid orange;
+    border-radius: 2px;
+    width: 150px;
+    margin-top: 10%;
+}
+
+img:hover {
+
+    opacity: 0.6;
+   
+}
+
+.gallery li {
+    list-style: none; margin: 28px;
+    display: inline;
+}
+
+.lb-data .lb-details {
+    margin-top: 1em;
+}
+
+
+
+@media(min-width: 400px){
+    .column {
+        flex: 50%;
+    }
+
+}
+
+@media(min-width: 800px){
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        
+    }
+
+    .lightboxOverlay {
+        max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
